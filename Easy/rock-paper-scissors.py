@@ -15,6 +15,7 @@ while(True):
     try:
         print("\n------------------------\nWins:",win,"Lose:",lose,"Draw:",draw,"\n------------------------")
         x = int(input("1. Rock\n2. Paper\n3. Scissors\n4. Exit\nChoose:"))
+        
 
     except ValueError:
         print("\nError: An integer between 1 and 4 should be provided!\n")
