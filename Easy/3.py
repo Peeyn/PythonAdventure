@@ -5,7 +5,7 @@
 
 #program menu
 while(True):
-    print("-----------------\nSimple calculator\n-----------------\nWhat do you want to do?\n1.Addiction\n2.Substraction\n3.Multiplication\n4.Division\n5.Exit")
+    print("-----------------\nSimple calculator\n-----------------\nWhat do you want to do?\n1.Addition\n2.Substraction\n3.Multiplication\n4.Division\n5.Exit")
     
     try:
         x = int(input("\nChoose an option: "))
